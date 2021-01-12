@@ -20,6 +20,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Shanghai
+
       # Display your latest starred repositories
       - uses: lowlighter/metrics@master
         with:
