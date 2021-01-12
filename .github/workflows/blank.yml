@@ -20,3 +20,13 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Shanghai
+inputs:
+    # Display recently starred repositories
+  plugin_stars:
+    description: Display recently starred repositories
+    default: no
+
+  # Number of recently starred repositories to display
+  plugin_stars_limit:
+    description: Number of recently starred repositories to display
+    default: 4
