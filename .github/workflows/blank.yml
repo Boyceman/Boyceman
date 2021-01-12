@@ -17,8 +17,8 @@ jobs:
 
           # Options
           user: Boyceman
-          template: classic
-          base: header, activity, community, repositories, metadata
+          template: terminal
+          base: header, repositories
           config_timezone: Asia/Shanghai
           plugin_stars: yes
           plugin_stars_limit: 4
